@@ -1,0 +1,151 @@
+.fon {
+    height: 100%;
+    background: url(../../img/header/fon.jpg) 0 0/100% 100% no-repeat;
+    .fon__box-fon {
+        height: 100%;
+        background: rgba(37, 43, 73, 0.5);
+        .container {
+            padding: calc(56px + 10 * (100vw/1200)) 15px calc(50px + 10 * (100vw/1200));
+            margin: 0 auto;
+            width: 62.5%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            
+            .main-title {
+                width: 100%;
+                overflow: hidden;
+                font-family: 'Raleway';
+                font-weight: 900;
+                font-size: calc(30px + 35 * (100vw/1200));
+                line-height: calc(35px + 40 *(100vw / 1200));
+                text-align: center;
+                text-transform: uppercase;
+                color: #ffffff;
+                animation-name: fon-title;
+                animation-duration: 0.8s;
+                animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+            }
+            .main__text {
+                width: 100%;
+                overflow: hidden;
+                font-family: 'Raleway';
+                font-size: calc(14px + 10 * (100vw/1200));
+                line-height: calc(16px + 12 * (100vw/1200));
+                text-align: center;
+                color: #FFFFFF;
+                animation-name: fon-text;
+                animation-duration: 1.6s;
+                animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+            }
+            .main__box-button {
+                width: 100%;
+                height: calc(60px + 18 * (100vw/1200));
+                position: relative;
+                .main__button {
+                    position: absolute;
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                    top: 0;
+                    width: calc(280px + 100 * (100vw/1200));
+                    height: calc(60px + 18 * (100vw/1200));
+                    background: #FF4343;
+                    font-family: 'Raleway';                
+                    font-weight: 900;
+                    font-size: calc(14px + 10 * (100vw/1200));
+                    line-height: calc(16px + 12 * (100vw/1200));
+                    text-transform: uppercase;
+                    color: #ffffff;
+                    transition: all 0.3s ease-out;
+                    animation-name: fon-button;
+                    animation-duration: 2.4s;
+    
+                    &:hover {
+                        background: #E71414;
+                    }
+    
+                    &:active {
+                        background: #FF4343;
+                        box-shadow: 4px 4px 30px #FF4343;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    .fon {
+        background: url(../../img/header/fon.jpg) 50% 0/auto 100% no-repeat;
+        .fon__box-fon {
+            .container {
+                width: 100%;
+            }   
+        }
+    }           
+}
+
+@keyframes fon-title{
+    0% {
+        width: 0;
+        font-size: 0;
+    }
+}
+
+@keyframes fon-text{
+    0% {
+        width: 0;
+        font-size: 0;
+    }
+    50% {
+        width: 0;
+        font-size: 0;
+    }    
+}
+
+@keyframes fon-button{
+    0% {
+        left: 0;
+        min-width: 0px;
+        font-size: 0;
+        height: calc(60px + 18 * (100vw/1200));
+        width: 0px;
+        border-radius: 50%;
+    }
+    10% {
+        left: 0;
+        min-width: calc(60px + 18 * (100vw/1200));
+        font-size: 0;
+        height: calc(60px + 18 * (100vw/1200));
+        width: 0px;
+        border-radius: 50%;
+    }
+    75% {
+        height: calc(60px + 18 * (100vw/1200));
+        width: calc(60px + 18 * (100vw/1200));
+        font-size: 0;
+        border-radius: 50%;
+        left: 50%;
+    }
+    80% {
+        min-width: calc(60px + 18 * (100vw/1200));
+        font-size: 0;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

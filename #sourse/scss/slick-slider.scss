@@ -1,0 +1,173 @@
+.slick-slider{
+
+    .container {
+        margin: 0 auto;
+        max-width: 1200px;
+
+        .slider {
+            .item {
+                display: flex;
+                align-items: stretch;
+                
+                
+                .item__photo {
+                    max-width: 50%;
+                    
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .item__text {
+                    max-width: 50%;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    padding: 30px;
+                    background: rgba(92, 50, 73, 1);
+                    .text__main {
+                        font-family: 'Cardo';
+                        font-weight: 400;
+                        font-style: italic;
+                        font-size: 225%;
+                        line-height: 180%;
+                        text-transform: capitalize;
+                        color: #FFFFFF;
+                    }
+
+                    .text__litle {
+                        font-family: 'Raleway';
+                        font-weight: 700;
+                        font-size:  81.25%;
+                        line-height:  93.75%;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            .slick-list {
+                overflow: hidden;
+            }
+
+            .slick-track{
+                display: flex;
+            }
+
+            .slick-dots{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .slick-dots li{
+                padding: 30px 0;
+                &:not(:last-child) {
+                    margin: 0px 10px 0 0;
+                }                
+            }
+
+            .slick-dots li.slick-active button{
+                background: rgba(126, 93, 111, 1);
+            }
+
+            .slick-dots li button{
+                font-size: 0;
+                width: 10px;
+                height: 10px;
+                border: 1px solid rgba(126, 93, 111, 1);
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .slick-slider{
+
+        .container {
+    
+            .slider {
+                
+                .item {
+    
+                    .item__text {
+                        padding: 3%;
+                        .text__main {
+                            font-size: 150%;
+                            line-height: 200%;
+                        }
+    
+                        .text__litle {
+                            font-size:  75%;
+                            line-height: 87.5%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 750px) {
+    .slick-slider{
+
+        .container {
+    
+            .slider {
+                
+                .item {
+    
+                    .item__text {
+                        padding: 3%;
+                        .text__main {
+                            font-size: 135%;
+                            line-height: 180%;
+                        }
+    
+                        .text__litle {
+                            font-size:  67.5%;
+                            line-height: 78%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .slick-slider{
+
+        .container {
+    
+            .slider {
+                
+                .item {
+                    display: flex;
+                    align-items: stretch;
+                    flex-direction: column;
+                    
+                    .item__photo {
+                        max-width: 100%;
+                        
+                        img {
+                            width: 100%;
+                        }
+                    }
+    
+                    .item__text {
+                        max-width: 100%;
+                        padding: 50px;
+                        background: rgba(92, 50, 73, 1);
+                        .text__main {
+                            margin: 0 0 32px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

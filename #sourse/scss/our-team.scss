@@ -1,0 +1,121 @@
+.our-team {
+    .container {
+        padding: 100px 15px;
+        margin: 0 auto;
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .our-team__item {
+            width: 24%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+
+            img {
+                
+                margin: 0 0 30px 0;
+            }
+            h3 {
+                font-family: 'Raleway';
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                text-transform: capitalize;
+                color: #2D3033;
+                margin: 0 0 6px 0;
+
+            }
+            h4 {
+                font-family: 'Raleway';
+                font-size: 18px;
+                line-height: 21px;
+                text-transform: uppercase;
+                color: #FF4343;
+                margin: 0 0 18px 0;
+            }
+            p {
+                font-family: 'Raleway';
+                font-size: 18px;
+                line-height: 21px;
+                color: #6C7279;
+                margin: 0 0 38px 0;
+            }
+            .item__social {
+                display: flex;
+                justify-content: flex-start;
+                :not(:last-child) {
+                    margin: 0 15px 0 0;
+                }
+
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .our-team {
+        .container {
+            .our-team__item {
+                
+    
+                img {
+                    margin: 0 0 25px 0;
+                }
+                h3 {
+                    font-size: 18px;
+                    line-height: 21px;
+                    margin: 0 0 4.6px 0;
+    
+                }
+                h4 {
+                    font-size: 14px;
+                    line-height: 16px;
+                    margin: 0 0 22.5px 0;
+                }
+                p {
+                    font-size: 14px;
+                    line-height: 16px;
+                    margin: 0 0 40px 0;
+                }
+                .item__social {
+                    display: flex;
+
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .our-team {
+        .container {
+            padding: 35px 15px;
+            flex-direction: column;
+            .our-team__item {
+                width: 100%;
+                padding: 0 0 0 0;
+                
+    
+                img {
+                    margin: 0 0 25px 0;
+                }
+                h4 {
+                    margin: 0 0 38.5px 0;
+                }
+                p {
+                    margin: 0 0 55px 0;
+                }
+                .item__social {
+                    display: flex;
+                    padding: 0 0 56px 0;
+                }
+            }
+        }
+    }
+}
+

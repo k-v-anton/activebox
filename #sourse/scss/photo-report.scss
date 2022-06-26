@@ -1,0 +1,108 @@
+.photo-report {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        .container__item {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 25%;
+            height: 25vmax;
+
+            img {
+
+                width: 100%;
+                height: 100%;
+            }
+
+            .text {
+                max-width: 0;
+                max-height: 0;
+                h3 {
+                    font-size: 0px;
+                    line-height: 0px;
+                }
+                p{
+                    font-size: 0px;
+                    line-height: 0px;
+                }
+            }
+
+            &:hover > .text {
+                max-width: 100%;
+                max-height: 100%;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(255, 67, 67, 0.8);
+                position: absolute;
+                transition: all 0.3s ease;
+                h3 {
+                    font-family: 'Raleway';
+                    font-weight: 900;
+                    font-size: 24px;
+                    line-height: 28px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    margin: 0 0 15% 0;
+                    transition: all 0.3s ease;
+                }
+                p{
+                    font-family: 'Raleway';
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    transition: all 0.3s ease;
+                }
+                
+            }
+            &:active > .text {
+                background-color: rgba(185, 12, 12, 0.8);
+            }
+
+            
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .photo-report {
+        .container {
+            .container__item {
+                &:hover > .text {
+                    h3 {
+                        font-size: 18px;
+                        line-height: 21px;
+                    }
+                    p{
+                        font-size: 14px;
+                        line-height: 16px;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .photo-report {
+        .container {
+            .container__item {
+                width: 50%;
+                height: 25vmax;
+            }
+        }
+    }
+}
+
+
+
+
