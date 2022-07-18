@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s ease;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .navigation {
     transition: all 0.5s ease;
     position: fixed;
@@ -411,7 +411,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 16px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .special-skills .container .special-skills__item {
     width: 100%;
   }
@@ -505,7 +505,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 16px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .photo-report .container .container__item {
     width: 50%;
     height: 25vmax;
@@ -583,7 +583,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .our-team .container {
     padding: 35px 15px;
     flex-direction: column;
@@ -686,7 +686,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 87.5%;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 767px) {
   .slick-slider .container .slider .item .item__text {
     padding: 3%;
   }
@@ -699,7 +699,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 78%;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .slick-slider .container .slider .item {
     display: flex;
     align-items: stretch;
