@@ -20,6 +20,7 @@
             .text {
                 max-width: 0;
                 max-height: 0;
+                
                 h3 {
                     font-size: 0px;
                     line-height: 0px;
@@ -42,6 +43,7 @@
                 background-color: rgba(255, 67, 67, 0.8);
                 position: absolute;
                 transition: all 0.3s ease;
+
                 h3 {
                     font-family: 'Raleway';
                     font-weight: 900;
@@ -51,7 +53,6 @@
                     text-transform: uppercase;
                     color: #FFFFFF;
                     margin: 0 0 15% 0;
-                    transition: all 0.3s ease;
                 }
                 p{
                     font-family: 'Raleway';
@@ -59,12 +60,12 @@
                     line-height: 21px;
                     text-align: center;
                     color: #FFFFFF;
-                    transition: all 0.3s ease;
                 }
                 
             }
             &:active > .text {
                 background-color: rgba(185, 12, 12, 0.8);
+                transition: all 0.3s ease;
             }
 
             

@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .special-skills .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 80px auto;
   padding: 15px;
   display: flex;
   width: 100%;
@@ -479,7 +479,6 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   color: #FFFFFF;
   margin: 0 0 15% 0;
-  transition: all 0.3s ease;
 }
 .photo-report .container .container__item:hover > .text p {
   font-family: "Raleway";
@@ -487,10 +486,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 21px;
   text-align: center;
   color: #FFFFFF;
-  transition: all 0.3s ease;
 }
 .photo-report .container .container__item:active > .text {
   background-color: rgba(185, 12, 12, 0.8);
+  transition: all 0.3s ease;
 }
 
 @media (max-width: 1024px) {
@@ -720,7 +719,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .download .container {
   padding: 15px;
-  margin: 0 auto;
+  margin: 80px auto;
   max-width: 1200px;
   display: flex;
   flex-direction: column;
@@ -734,7 +733,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: calc(20px + 0.6666666667vw);
   text-align: center;
   color: #000000;
-  margin: 0 0 calc(20px + 1vw) 0;
+  margin: 0 0 calc(20px + 0.8333333333vw) 0;
 }
 .download .container .download__text {
   font-family: "Raleway";
@@ -744,13 +743,13 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-  margin: 0 0 calc(11px + 1.25vw) 0;
+  margin: 0 0 calc(35px + 1.25vw) 0;
 }
 .download .container .download__box-button {
   width: 100%;
   height: calc(60px + 1.5vw);
   position: relative;
-  margin: 0 0 calc(45px + 1.25vw) 0;
+  margin: 0 0 calc(20px + 1.25vw) 0;
 }
 .download .container .download__box-button .download__button {
   position: absolute;

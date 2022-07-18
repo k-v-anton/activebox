@@ -1,7 +1,7 @@
 .download {
     .container {
         padding: 15px;
-        margin: 0 auto;
+        margin: 80px auto;
         max-width: 1200px;
         display: flex;
         flex-direction: column;
@@ -14,7 +14,7 @@
             line-height: calc(20px + 8 * (100vw/1200));
             text-align: center;
             color: #000000;
-            margin: 0 0 calc(20px + 12 * (100vw/1200)) 0;
+            margin: 0 0 calc(20px + 10 * (100vw/1200)) 0;
         }
         .download__text {
             font-family: 'Raleway';
@@ -24,14 +24,14 @@
             text-align: center;
             text-transform: uppercase;
             color: #000000;
-            margin: 0 0 calc(11px + 15 * (100vw/1200)) 0;
+            margin: 0 0 calc(35px + 15 * (100vw/1200)) 0;
         }
     
         .download__box-button {
             width: 100%;
             height: calc(60px + 18 * (100vw/1200));
             position: relative;
-            margin: 0 0 calc(45px + 15 * (100vw/1200)) 0;
+            margin: 0 0 calc(20px + 15 * (100vw/1200)) 0;
             .download__button {
                 position: absolute;
                 left: 50%;
