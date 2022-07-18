@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   font-family: "Raleway";
   font-weight: 900;
-  font-size: calc(30px + 2.1666666667vw);
+  font-size: calc(30px + 2.0833333333vw);
   line-height: calc(35px + 2.9166666667vw);
   text-align: center;
   text-transform: uppercase;
