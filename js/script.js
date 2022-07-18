@@ -2,9 +2,10 @@
 $(document).ready(function () {
     $('#nav-title').click((e) => {
         $('#fon-info').slideToggle(),
-            $("#nav-menu").slideToggle(500, "linear")
+        $("#nav-menu").slideToggle(500, "linear")
     })
 });
+
 
 // --------------------СКРОЛЛ ШАПКИ----------------------- //
 $(window).on("scroll", function () {

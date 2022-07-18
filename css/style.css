@@ -246,11 +246,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 .fon .fon__box-fon .container .main-title {
   width: 100%;
+  padding: calc(70px + 2.5vw) 0 0 0;
   overflow: hidden;
   font-family: "Raleway";
   font-weight: 900;
-  font-size: calc(30px + 2.9166666667vw);
-  line-height: calc(35px + 3.3333333333vw);
+  font-size: calc(30px + 2.1666666667vw);
+  line-height: calc(35px + 2.9166666667vw);
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;

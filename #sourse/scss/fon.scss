@@ -17,11 +17,12 @@
             
             .main-title {
                 width: 100%;
+                padding: calc(70px + 30 * (100vw / 1200)) 0 0 0;
                 overflow: hidden;
                 font-family: 'Raleway';
                 font-weight: 900;
-                font-size: calc(30px + 35 * (100vw/1200));
-                line-height: calc(35px + 40 *(100vw / 1200));
+                font-size: calc(30px + 26 * (100vw/1200));
+                line-height: calc(35px + 35 *(100vw / 1200));
                 text-align: center;
                 text-transform: uppercase;
                 color: #ffffff;
