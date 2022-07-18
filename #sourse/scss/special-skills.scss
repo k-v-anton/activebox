@@ -1,7 +1,7 @@
 .special-skills {
     .container {
         max-width: 1200px;
-        margin:  80px auto;
+        margin:  calc(50px + 20 * (100vw / 1200)) auto;
         padding: 15px;
         display: flex;
         width: 100%;

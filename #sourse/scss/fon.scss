@@ -1,6 +1,7 @@
 .fon {
     height: 100%;
     background: url(../img/header/fon.jpg) 0 0/100% 100% no-repeat;
+    max-height: 60vw;
     .fon__box-fon {
         height: 100%;
         background: rgba(37, 43, 73, 0.5);
@@ -78,6 +79,7 @@
 @media (max-width: 767px) {
     .fon {
         background: url(../img/header/fon.jpg) 50% 0/auto 100% no-repeat;
+        max-height: none;
         .fon__box-fon {
             .container {
                 width: 100%;
